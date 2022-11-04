@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle ambbet-amb",
+        "command": "ambbet-amb:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "ambbet-amb",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "ambbet-amb:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
